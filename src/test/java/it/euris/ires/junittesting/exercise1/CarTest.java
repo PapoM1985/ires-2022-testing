@@ -1,4 +1,4 @@
-package it.euris.ires.junittesting;
+package it.euris.ires.junittesting.exercise1;
 
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package it.euris.ires.junittesting;
+package it.euris.ires.junittesting.exercise1;
 
 public class Car {
 
