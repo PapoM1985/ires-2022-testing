@@ -8,7 +8,7 @@ public class RomanNumberConverter {
     this.nncHandler = nncHandler;
   }
 
-  //TODO completare: converte un numero arabo compreso tra 0 e 3999 a romano
+  //TODO completare: converte un numero arabo compreso tra 1 e 3999 a romano
   public String convert(int number) {
     return "";
   }
