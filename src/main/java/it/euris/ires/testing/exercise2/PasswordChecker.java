@@ -2,7 +2,7 @@ package it.euris.ires.testing.exercise2;
 
 public class PasswordChecker {
 
-  final StringChecker stringChecker;
+  public StringChecker stringChecker;
 
   public PasswordChecker(StringChecker stringChecker) {
     this.stringChecker = stringChecker;
@@ -19,5 +19,13 @@ public class PasswordChecker {
           && stringChecker.hasDigit(password.getText())
           && stringChecker.hasSpecial(password.getText());
     } else return false;
+  }
+
+  public StringChecker getStringChecker() {
+    return stringChecker;
+  }
+
+  public void setStringChecker(StringChecker stringChecker) {
+    this.stringChecker = stringChecker;
   }
 }
